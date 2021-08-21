@@ -110,33 +110,11 @@ document.getElementById('delivery-charge').addEventListener('click',function(){
     totalAmount.innerText=sumAmount ; 
       
 });
-// document.getElementById('memory-8GB').addEventListener('click',function(){
-//     //console.log('this is my amount ') ;
-//    const memory8gb= 100;
-//     const etraMemory=document.getElementById('extra-memory');
-//     const memory=etraMemory.innerText;
-//     const memoryAmount=parseFloat(memory);
-//     const memoryPrice =memory8gb+memoryAmount;
-//     etraMemory.innerText=memoryPrice;
-//     const totalAmount=document.getElementById('Total-amount');
-//     const TotalPrice =totalAmount.innerText;
-//     const TotalPhonePrice =parseFloat(TotalPrice);
-//     const sumAmount =TotalPhonePrice +memoryPrice;
-//     totalAmount.innerText=sumAmount ; 
-      
-// });
-// document.getElementById('memory-8GB').addEventListener('click',function(){
-//     //console.log('this is my amount ') ;
-//    const memory8gb= 100;
-//     const etraMemory=document.getElementById('extra-memory');
-//     const memory=etraMemory.innerText;
-//     const memoryAmount=parseFloat(memory);
-//     const memoryPrice =memory8gb+memoryAmount;
-//     etraMemory.innerText=memoryPrice;
-//     const totalAmount=document.getElementById('Total-amount');
-//     const TotalPrice =totalAmount.innerText;
-//     const TotalPhonePrice =parseFloat(TotalPrice);
-//     const sumAmount =TotalPhonePrice +memoryPrice;
-//     totalAmount.innerText=sumAmount ; 
-      
-// });
+//promo code 
+document.getElementById('apply-code').addEventListener('click',function(){
+    const promocode =document.getElementById('input-code');
+    const promodail=promocode.value ;
+    console.log(promodail);
+    //const promodail=document.getElementById('input-code');
+   // console.log(promodail);
+})
