@@ -1,7 +1,7 @@
 
 //8GB memory
 document.getElementById('memory-eightGB').addEventListener('click',function(){
-   const memory8gb= 200;
+   const memory8gb= 0;
     const etraMemory=document.getElementById('extra-memory');
     const memory=etraMemory.innerText;
     const memoryAmount=parseFloat(memory);
@@ -32,7 +32,7 @@ document.getElementById('memory-16GB').addEventListener('click',function(){
 });
      // 265 SSD storage 
 document.getElementById('ssd-storage-265').addEventListener('click',function(){
-   const storage265gb= 300;
+   const storage265gb= 0;
     const etraMemory=document.getElementById('storage-memory');
     const memory=etraMemory.innerText;
     const memoryAmount=parseFloat(memory);
@@ -47,7 +47,7 @@ document.getElementById('ssd-storage-265').addEventListener('click',function(){
 });
         // 512 SSD storage 
 document.getElementById('ssd-storage-512').addEventListener('click',function(){
-    const storage512gb= 400;
+    const storage512gb= 100;
     const etraMemory=document.getElementById('storage-memory');
     const memory=etraMemory.innerText;
     const memoryAmount=parseFloat(memory);
@@ -62,7 +62,7 @@ document.getElementById('ssd-storage-512').addEventListener('click',function(){
 });
   // 1TB SSD storage 
 document.getElementById('ssd-storage-1TB').addEventListener('click',function(){
-   const storage1TB= 500;
+   const storage1TB= 180;
     const etraMemory=document.getElementById('storage-memory');
     const memory=etraMemory.innerText;
     const memoryAmount=parseFloat(memory);
