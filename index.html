@@ -13,34 +13,41 @@
       <section class="container">
           <div class='grid grid-cols-2 gap-6'>
               <div>
-                  <img src="images/mac.png" alt="">
+                  <img class='w-200' src="images/mac.png" alt="">
               </div>
               <div>
                 <h1 class='text-5xl'>Coustromize your Blue 24-inch iMac with Apple M1 chip </h1>
                  <h2>Apple M1 chip with 8-core CPU with 4 perfomance cores and efficiency core ,
                      7-core GPU and 16 core Neural Engine BGB unified memory 265GB SSD storage 
                      Two Thunderboit /USB 4 ports Magic keyboard-US English.</h2>
-
-                     <div class='written-text' >
-                         <h1 class='text-2xl'>Memory</h1>
-                         <button class="border-black border-2 border-light-blue-500 ">8GB unified memory</button>
-                         <button class="border-black border-2 border-light-blue-500 ">16GB unified memory </button>
-
-                     </div>
-                     <div>
-                         <h1 class='text-2xl'>Storage</h1>
-                         <button class="border-black border-2 border-light-blue-500 ">265GB SSD storage</button>
-                         <button class="border-black border-2 border-light-blue-500 ">512GB SSD storage</button>
-                         <button class="border-black border-2 border-light-blue-500 ">1TBGB SSD storage</button>
+                    
+                     <div >
+                         <h1 class='text-2xl text-bold'>Memory</h1>
+                         <button id='memory-8GB' class=" px-8 rounded-2xl border-black 
+                         bg-gray-200 border-2 border-light-blue-500 ">8GB unified memory</button>
+                         <button id='memory-16GB' class=" px-8 rounded-2xl border-black 
+                         bg-gray-200 border-2 border-light-blue-500 ">16GB unified memory </button>
 
                      </div>
                      <div>
-                         <h1 class='text-2xl'>Choose your delivery option </h1>
-                         <button class="border-black border-2 border-light-blue-500 " >Friday,Aug 25 Free prime Delivery </button>
-                         <button class="border-black border-2 border-light-blue-500 ">Friday,Aug 21 Delivery charge $20 </button>
+                         <h1 class='text-2xl text-bold'>Storage</h1>
+                         <button id='ssd-storage-265' class=" rounded-2xl px-8  border-black bg-gray-200 border-2 
+                         border-light-blue-500 ">265GB SSD storage</button>
+                         <button id='ssd-storage-512' class="rounded-2xl px-8  border-black bg-gray-200 border-2 
+                         border-light-blue-500 ">512GB SSD storage</button>
+                         <button id='ssd-storage-1TB' class="rounded-2xl px-8 my-4 border-black bg-gray-200 border-2 
+                         border-light-blue-500 "> 1TBGB SSD storage</button>
+
+                     </div>
+                     <div>
+                         <h1 class=' text-2xl text-bold'>Choose your delivery option </h1>
+                         <button id='free-delivery' class=" rounded-2xl px-8  border-black bg-gray-200 border-2 border-light-blue-500 " >
+                             Friday,Aug 25 Free prime Delivery </button>
+                         <button id='delivery-charge' class="rounded-2xl px-8 border-black bg-gray-200 border-2 border-light-blue-500 ">
+                             Friday,Aug 21 Delivery charge $20 </button>
                      </div>
                      <div class='grid row-6'>
-                         <div class='grid grid-cols-2'> 
+                         <div class='grid grid-cols-2 my-5 text-bold'> 
                              <div class='grid-cols-4'>
                               <h1 class='text-1xl'>Best price </h1>
                               <h1 class='text-1xl'>Extra memory Cost </h1>
@@ -50,27 +57,25 @@
                              </div>
                              <div class=' grid-cols-8'>
                                <h1>$ <span>1299</span></h1>
-                               <h1>$ <span>0</span></h1>
-                               <h1>$ <span>0</span></h1>
-                               <h1>$ <span>0</span></h1>
-                               <h1>$ <span>1299</span></h1>
+                               <h1>$ <span id='extra-memory'>0</span></h1>
+                               <h1>$ <span id='storage-memory'>0</span></h1>
+                               <h1>$ <span id='delivery-price'>0</span></h1>
+                               <h1>$ <span id='Total-amount'>1299</span></h1>
                              </div>
                            </div>
                      </div>
-                     <div>
-                         <p>Add promo code :</p>
-                          <p><input type="text" name="" id=""><button class='text-red-900'>Apply</button></p>
-                          <h1>Total amount : $ <span>1299</span></h1>
+                     <div class='text-bold'>
+                         <p >Add promo code :</p>
+                          <p><input class='w-15 border-4 color-4' type="text" name="" id="" placeholder="promo code">
+                            <button class='text-red-900 text-bold'>Apply</button></p>
+                          <h1 class='text-2xl'>Total amount : $ <span>1299</span></h1>
                       </div>
               </div>
           </div>
         
       </section>
-      <section>
-          <div>
-
-          </div>
-      </section>
+     
   </main>
+  <script src="mac.js"></script>
  </body>
 </html>
